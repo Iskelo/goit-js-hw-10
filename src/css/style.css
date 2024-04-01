@@ -1,1 +1,9 @@
-
+.is-hidden{
+	display: none;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
