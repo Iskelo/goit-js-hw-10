@@ -1,9 +1,9 @@
 // api_key=live_LhRaSRmpbzACSKHyOJ3sSYEuXX19iNDYMCgPejLB2Cc1riZfk88l8pBTolFdQxbp
 
-
-export function fetchBreeds(){
-	const BASE_URL='https://api.thecatapi.com/v1';
+const BASE_URL='https://api.thecatapi.com/v1';
 	const API_KEY ='live_LhRaSRmpbzACSKHyOJ3sSYEuXX19iNDYMCgPejLB2Cc1riZfk88l8pBTolFdQxbp';
+export function fetchBreeds(){
+	
 	return fetch(`${BASE_URL}/breeds?api_key=${API_KEY}`)
 	.then(resp =>{
 		if (!resp.ok) {
